@@ -1,0 +1,158 @@
+/* USE BORDERS WHEN BUILDING SO YOU CAN SEE CHILDREN WITHIN PARENTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body{ /*bg colour*/
+    background-color: blanchedalmond;
+    background-image: url(images/cabbage.png);
+    background-size: 5vw, 5vw;
+    background-repeat: repeat;
+}
+
+header{ /*website name and nav bar*/
+    border: solid 10px rgb(193, 235, 193);
+    border-radius: 25px;
+}
+
+.titleImages{ /*images in header*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+.contentImages1{ /*images in main content*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contentImage{ /*image sizing*/
+    width: 15%;
+    border: solid 10px rgb(241, 169, 143);
+    border-radius: 20px;
+    margin: 40px;
+}
+
+#contentImage2{ /*image sizing larger image*/
+    width: 30%;
+    border-radius: 20px;
+    border: solid 10px rgb(241, 169, 143);
+    margin: 40px;
+}
+
+#titleImage1{ /*left title image*/
+    display: flex;
+    align-items: flex-start;
+    width: 8vw;
+    opacity: 0.8;
+}
+
+#titleImage2{ /*right title image*/
+    display: flex;
+    align-items: flex-end;
+    width: 8vw;
+    opacity: 0.8;
+}
+
+.title{ /*title at top*/
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(241, 169, 143);
+}
+
+.title2{ /*title of page*/
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(241, 169, 143);
+}
+
+.navbar{/*nav bar containing buttons*/
+    width: 100%;
+    background-color: rgb(193, 235, 193);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbutton{ /*nav button containing text*/
+    width:15%;
+    padding:15px;
+    border-radius: 10px;
+    margin:20px;
+    background: rgba(255, 255, 255, 0.781);
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent{ /*box containing main content*/
+    border: solid 10px rgb(218, 193, 235);
+    border-radius: 40px;
+}
+
+.textBox{ /*inner box containing text*/
+    border: solid 5px rgb(241, 169, 143);
+    margin:20px;
+    border-radius: 1vw;
+}
+
+.recipeLinkBox{ /*inner box containing recipe link*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.recipeLinks{ /*characteristics of inner box containing recipe link*/
+    border: solid 5px rgb(241, 169, 143);
+    margin:20px;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.recipeBox{ /*inner box containing recipe*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.recipe{ /*characteristics of inner box containing recipe link*/
+    border: solid 5px rgb(241, 169, 143);
+    margin:20px;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.footerBox{
+    border: solid 5px rgb(241, 169, 143);
+    margin:20px;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+}
+
+#text1{ /*text in nav buttons*/
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: rgb(241, 169, 143);
+}
+
+#text2{ /*text in main content*/
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: rgb(241, 169, 143);
+    padding: 25px;
+}
+
+#footerText{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: rgb(241, 143, 107);
+}
